@@ -12,7 +12,7 @@ let package = Package(
         ],
     dependencies: [
         .package(url: "https://github.com/apple/swift-package-manager.git", .exact("0.5.0")),
-        .package(url: "https://github.com/jpsim/SourceKitten.git", from: "0.26.0"),
+        .package(url: "https://github.com/jpsim/SourceKitten.git", exact("0.26.0")),
         .package(url: "https://github.com/apple/swift-syntax.git", .exact("0.50100.0")),
         ],
     targets: [
